@@ -24,7 +24,7 @@ body{
 .subcontainer
 {
     
-    flex: 1 1;
+    flex: 1 1 12.5%;
     display: flex;
    flex-wrap: wrap;
     
