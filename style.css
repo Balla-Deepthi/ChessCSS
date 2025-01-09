@@ -1,0 +1,54 @@
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.container
+{
+    display: flex;
+   
+    width: 1000px;
+    height: 1000px;
+    flex-direction: column;
+    
+    
+    
+}
+.subcontainer
+{
+    
+    flex: 1 1;
+    display: flex;
+   
+    
+    
+    
+    
+}
+
+
+.item
+{
+    flex:1 1;
+    
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    
+    
+    
+}
+
+.subcontainer:nth-child(odd) .item:nth-child(odd),.subcontainer:nth-child(even) .item:nth-child(even)
+{
+    background-color: black;
+    color: white;
+}
